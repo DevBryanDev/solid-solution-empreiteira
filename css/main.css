@@ -1,0 +1,139 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+.main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 70px;
+
+}
+
+.logo img {
+    height: 43px;
+    margin-left: 93px;
+    
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: nonet;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: white;
+    width: 100%;
+    border-bottom: 10px solid #efefef;
+    margin-left: 70px;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    
+
+}
+
+/*botão whatsapp*/
+#div-fixa{
+    position: fixed;
+    bottom: 30px;
+    margin: 0 20px;
+    background: rgb(89,245, 122);
+    width: 230px;
+    border-radius: 60px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+#div-fixa.shrink {
+    width: 50px;
+}
+
+#div-fixa img {
+    width: 60px;
+    height: 60px;
+}
+
+#div-fixa a .flex-itens {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#div-fixa a .flex-itens span {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #040305;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#div-fixa a {
+    text-decoration: none;
+}
+
+.flutuar {
+    animation-name: flutuar;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes flutuar {
+    from{
+        transform: translate3d(0, 0, 0);
+        filter: brightness(100%);
+    }
+    to {
+        transform: translate3d(0, -15px, 0);
+        filter: brightness(150%);
+
+    }
+
+}
