@@ -4,13 +4,28 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <meta charset="UTF-8">
-    <script src="js/whatsapp-shink.js"></script>
+    <script src="./js/whatsapp.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <title>Solid Solution Empreiteira</title>
 </head>
 
 <body>
-    <header class="menu-principal">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <svg class="fas fa-bars"  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </label>
+        <label class="logo"><img src="./img/logo.png" width="115,75" height="38,25"> </label>
+        <ul>
+
+            <li><a class="active"  href="">Home</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Contato</a></li>
+
+        </ul>
+    </nav>
+    <!--<header class="menu-principal">
         <main>
             <div class="header-1">
                 <div class="logo">
@@ -41,9 +56,10 @@
                     </ul>
                 </div>
             </div>
-        </main>
+        </main>-->
     </header>
-    <main class="col-100 menu-urls">
+    <!-- Novo campo de menu teste -->
+ <!--   <main class="col-100 menu-urls">
         <div class="header-2">
             <div class="menu">
                 <ul>
@@ -51,27 +67,18 @@
                         <a href="#content">Home</a>
                     </li>
                     <li>
-                        <a href="">About Us</a>
+                        <a href="#services">Service</a>
                     </li>
                     <li>
-                        <a href="">Service</a>
-                    </li>
-                    <li>
-                        <a href="">Pages</a>
-                    </li>
-                    <li>
-                        <a href="">Blog</a>
-                    </li>
-                    <li>
-                        <a href="">Contact Us</a>
+                        <a href="./contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
-            <div class="busca">
+            <!-- <div class="busca">
                 <input placeholder="Search Something" type="text" />
             </div>
-        </div>
-    </main>
+        </div>-
+    </main>--> 
     <div class="col-100">
         <div class="slider-principal">
             <img src="./img/banner.png" />
@@ -80,7 +87,7 @@
             <img src="./img/banner.png" />
         </div>
     </div>
-    <div class="col-100">
+    <div class="col-100" >
         <div class="content texto-destaque">
             <h1>A Empreiteira que realiza, <strong>Solid Solution,</strong> sempre com você.</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -111,7 +118,7 @@
             </div>
         </div>
     </div>
-    <div class="col-100 bloco-imagens-texto">
+    <div class="col-100 bloco-imagens-texto" id="services">
         <div class="content" style="margin-left: 24%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
                 <img src="./img/imagem1.png">
@@ -194,6 +201,9 @@
             </div>
         </div>
     </div>
+
+
+
     <footer>
         <div class="col-100 footer">
             <div class="content">
